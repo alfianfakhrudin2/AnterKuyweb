@@ -65,6 +65,20 @@ nav.navbar {
     transition: color 0.15s ease-in-out;
 }
 
+.navbar .navbar-menu .navbar-item:hover{
+    display: flex;
+    padding: 8px 0px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: color 0.15s ease-in-out;
+}
+
 .articleHead {
     max-width: 626px;
     display: flex;
@@ -188,6 +202,18 @@ i {
     gap: 24px;
     align-self: stretch;
 }
+
+/* about section */
+.articleAbout {
+    max-width: 626px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
 
 @media screen and (max-width: 768px) {
     .nav-list {

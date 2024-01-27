@@ -17,6 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+// untuk ganti tahun dinamis copyright
+const yearSpan = document.querySelector("#currentYear");
+const currentYear = new Date();
+yearSpan.innerText = currentYear.getFullYear();
+
 // const menu = document.getElementById("menu");
 // const navbarMenu = document.querySelector(".navbar-menu");
 
