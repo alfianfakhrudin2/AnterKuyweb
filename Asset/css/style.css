@@ -214,6 +214,17 @@ i {
     align-self: stretch;
 }
 
+/* untuk footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    padding: 24px 0px;
+    background-color: var(--bg-color-secondary);
+}
 
 @media screen and (max-width: 768px) {
     .nav-list {
