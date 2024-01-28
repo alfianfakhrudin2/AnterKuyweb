@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@500&display=swap');
+
+
 :root {
     --bs-body-font-family: 'Quicksand', sans-serif;
     --primary: #fe7b2a;
@@ -6,6 +10,7 @@
     --yellow: #FBBC0B;
     --bg-color-secondary: #fff7f0;
 }
+
 
 * {
     font-family: var(--bs-body-font-family);
@@ -89,6 +94,10 @@ nav.navbar {
     align-self: stretch;
 }
 
+.articleHead p {
+    font-family: Poppins, sans-serif;
+}
+
 header{
     display: flex;
     padding: 12px 0px;
@@ -116,7 +125,7 @@ section .container img {
 #about,
 #page-top,
 #service,
-#galery {
+#kontak {
     padding-top: 86px;
 }
 
@@ -148,6 +157,7 @@ section .container img {
     color: rgb(121, 75, 75);
     font-size: 34px;
     font-weight: bold;
+    font-family: Spectral SC;
 }
 
 .nav-list {
@@ -159,6 +169,10 @@ section .container img {
 
 .nav-list li {
     margin-right: 40px;
+    font-family: poppins;
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .nav-list a {
@@ -166,6 +180,27 @@ section .container img {
     font-size: 20px;
     color: rgb(44, 36, 36);
     font-weight: semi-bold;
+    display: inline-block;
+}
+
+.nav-list a:hover {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FC6736;
+    font-weight: semi-bold;
+}
+
+.nav-list a::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #000000;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.nav-list a:hover::after {
+    transform: scaleX(0.6);
 }
 
 .toggle-button {
@@ -193,16 +228,6 @@ i {
     letter-spacing: 1px;
 }
 
-.articleHead {
-    max-width: 626px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 24px;
-    align-self: stretch;
-}
-
 /* about section */
 .articleAbout {
     max-width: 626px;
@@ -213,6 +238,8 @@ i {
     gap: 24px;
     align-self: stretch;
 }
+
+
 
 /* untuk footer */
 .footer {
