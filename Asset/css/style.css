@@ -160,6 +160,10 @@ section .container img {
     font-family: Spectral SC;
 }
 
+.logo span{
+    color: #FC6736;
+}
+
 .nav-list {
     list-style: none;
     margin: 0;
