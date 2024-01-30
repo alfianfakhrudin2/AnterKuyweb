@@ -115,7 +115,7 @@ header{
 
 
 #page-top .container img {
-    width: 448px;
+    width: 500px;
 }
 
 section .container img {
@@ -248,6 +248,38 @@ i {
     font-family: Poppins;
 }
 
+/* section fitur */
+.sectionTitle{
+    display: flex;
+}
+
+.box{
+    display: column;
+    flex-direction: column;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.service h1{
+    font-family: Poppins;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviceAnter{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 /* untuk footer */
