@@ -223,14 +223,6 @@ i {
     background-color: transparent;
 }
 
-.about {
-    color: #4A2708;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1px;
-}
 
 /* about section */
 .articleAbout {
@@ -241,6 +233,19 @@ i {
     align-items: flex-start;
     gap: 24px;
     align-self: stretch;
+}
+
+.about {
+    color: #4A2708;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    font-family: Poppins;
+}
+.articleAbout h1{
+    font-family: Poppins;
 }
 
 
