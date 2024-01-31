@@ -116,10 +116,12 @@ header{
 
 #page-top .container img {
     width: 500px;
+    object-fit: cover;
 }
 
 section .container img {
     width: 500px;
+    object-fit: cover;
 }
 
 #about,
@@ -280,6 +282,11 @@ i {
     align-items: center;
     justify-content: space-between;
 }
+
+/* .service-icon i{
+    width: 100px;
+    height: 100px;
+} */
 
 
 /* untuk footer */
