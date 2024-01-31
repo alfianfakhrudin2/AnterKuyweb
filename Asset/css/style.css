@@ -112,15 +112,13 @@ header{
     z-index: 9999;
 }
 
-
-
 #page-top .container img {
     width: 500px;
     object-fit: cover;
 }
 
 section .container img {
-    width: 500px;
+    width: 448px;
     object-fit: cover;
 }
 
@@ -253,6 +251,7 @@ i {
 /* section fitur */
 .sectionTitle{
     display: flex;
+    font-size: 22px;
 }
 
 .box{
@@ -283,10 +282,9 @@ i {
     justify-content: space-between;
 }
 
-/* .service-icon i{
-    width: 100px;
-    height: 100px;
-} */
+.service-icon img{
+    width: 448px;
+}
 
 
 /* untuk footer */
@@ -299,6 +297,17 @@ i {
     align-self: stretch;
     padding: 24px 0px;
     background-color: var(--bg-color-secondary);
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 100%;
+        padding: 75px 12px;
+    }
+    .service-icon img{
+        width: 348px !important;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -315,6 +324,9 @@ i {
         box-shadow: 0px 2px 12px 0px #dadada;
         gap: 8px;
         transition: 0.3s;
+    }
+    .service-icon img{
+        width: 248px !important;
     }
 
     .nav-list.show {
@@ -334,12 +346,5 @@ i {
 @media screen and (max-width: 450px) {
     header .container {
         max-width: 420px;
-    }
-}
-
-@media screen and (max-width: 1440px) {
-    .container {
-        width: 100%;
-        padding: 75px 12px;
     }
 }
