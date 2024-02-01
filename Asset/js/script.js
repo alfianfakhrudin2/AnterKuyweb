@@ -8,12 +8,13 @@
 //     }
 // }
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function (x) {
     const toggleButton = document.querySelector(".toggle-button");
     const navList = document.querySelector(".nav-list");
 
     toggleButton.addEventListener("click", function () {
         navList.classList.toggle("show");
+        // x.classList.toggle("toggleButton");
     });
 });
 
@@ -21,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 const yearSpan = document.querySelector("#currentYear");
 const currentYear = new Date();
 yearSpan.innerText = currentYear.getFullYear();
+
 
 // const menu = document.getElementById("menu");
 // const navbarMenu = document.querySelector(".navbar-menu");

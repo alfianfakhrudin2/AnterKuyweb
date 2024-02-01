@@ -157,7 +157,7 @@ section .container img {
 
 .logo {
     color: rgb(121, 75, 75);
-    font-size: 34px;
+    font-size: 43px;
     font-weight: bold;
     font-family: Spectral SC;
 }
@@ -215,6 +215,29 @@ section .container img {
     cursor: pointer;
     display: none;
 }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: black;
+      border-radius: 15px;
+      margin: 6px;
+      transition: .1s;
+    }
+
+    .toggle-button .bar1 {
+      transform: translate(0, 11px) rotate(-45deg);
+    }
+
+    .toggle-button .bar2 {
+      opacity: 0;
+    }
+
+    .toggle-button .bar3 {
+      transform: translate(0, -11px) rotate(45deg);
+    }
 
 .content {
     padding: 20px;
@@ -321,9 +344,20 @@ i {
         font-size: 50px;
         font-family: Poppins, sans-serif;
     }
+    .articleHead h1 {
+        font-size: 500px;
+    }
     /* untuk ukuran font pada section layanan */
     .service-icon img{
         width: 296px !important;
+    }
+    .sectionTitle .fw-bold{
+        font-size: 30px;
+    }
+
+    /* navbar */
+    header .container {
+        max-width: 1024px;
     }
 
 }
@@ -348,9 +382,17 @@ i {
         font-size: 35px;
         font-family: Poppins, sans-serif;
     }
+    .articleAbout p {
+        font-size: 16px;
+    }
     /* untuk ukuran font pada section layanan */
     .service-icon img{
-        width: 236px !important;
+        width: 240px !important;
+    }
+
+    /* navbar */
+    header .container {
+        max-width: 824px;
     }
 }
 
@@ -380,6 +422,10 @@ i {
     .nav-list li {
         margin: 0;
         text-align: center;
+    }
+
+    header .container{
+        max-width: 658px;
     }
 
     .service-icon img{
