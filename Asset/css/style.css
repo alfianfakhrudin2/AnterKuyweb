@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
 :root {
@@ -95,6 +96,7 @@ nav.navbar {
 }
 
 .articleHead p {
+    font-size: 60px;
     font-family: Poppins, sans-serif;
 }
 
@@ -300,14 +302,41 @@ i {
 }
 
 @media screen and (max-width: 1440px) {
+    /* ini untuk semua container */
     .container {
-        width: 100%;
-        padding: 75px 12px;
+        width: 1024px;
     }
+    /* untuk container about */
+    section#about .container {
+        gap: 64px;
+    }
+    /* untuk ukuran gambar pada section pagetop */
+    #page-top .container img,
+    section .container img,
+    .imgHeader {
+        width: 392px;
+    }
+    /* untuk ukuran font pada section pagetop */
+    .articleHead p {
+        font-size: 50px;
+        font-family: Poppins, sans-serif;
+    }
+    /* untuk ukuran font pada section layanan */
     .service-icon img{
-        width: 348px !important;
+        width: 296px !important;
     }
 
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+
+
+    .service-icon img{
+        width: 326px !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -336,6 +365,10 @@ i {
     .nav-list li {
         margin: 0;
         text-align: center;
+    }
+
+    .service-icon img{
+        width: 248px !important;
     }
 
     .toggle-button {
