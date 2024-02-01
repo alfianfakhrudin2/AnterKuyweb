@@ -329,13 +329,28 @@ i {
 }
 
 @media screen and (max-width: 1024px) {
+    /* ini untuk semua container */
     .container {
-        max-width: 768px;
+        width: 824px;
     }
-
-
+    /* untuk container about */
+    section#about .container {
+        gap: 34px;
+    }
+    /* untuk ukuran gambar pada section pagetop */
+    #page-top .container img,
+    section .container img,
+    .imgHeader {
+        width: 236px;
+    }
+    /* untuk ukuran font pada section pagetop */
+    .articleHead p {
+        font-size: 35px;
+        font-family: Poppins, sans-serif;
+    }
+    /* untuk ukuran font pada section layanan */
     .service-icon img{
-        width: 326px !important;
+        width: 236px !important;
     }
 }
 
