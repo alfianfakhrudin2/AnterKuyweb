@@ -325,7 +325,7 @@ i {
 .section-body {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 124px;
     align-self: stretch;
     margin-bottom: 40px;
 }
@@ -438,6 +438,14 @@ i {
         max-width: 1024px;
     }
 
+    /* untuk kontak section */
+    .section-body {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        align-self: stretch;
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -553,6 +561,20 @@ i {
     .card {
         max-width: 100%;
       }
+
+      /* untuk hp */
+      .section-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        align-self: stretch;
+        margin-bottom: 40px;
+    }
+
+    .section-kontak{
+        width: 600px;
+    }
 }
 
 @media screen and (max-width: 450px) {
