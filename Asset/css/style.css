@@ -311,6 +311,84 @@ i {
     width: 448px;
 }
 
+/* Kontak section */
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.section-body {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-self: stretch;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    max-width: 400px;
+    max-height: 500px;
+  }
+
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #map {
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  .info {
+    margin-top: 20px;
+  }
+
+  .info p {
+    margin-bottom: 8px;
+    color: #333;
+  }
 
 /* untuk footer */
 .footer {
@@ -470,6 +548,11 @@ i {
     .articleHead {
         align-items: center;
     }
+
+    /* untuk kontak form */
+    .card {
+        max-width: 100%;
+      }
 }
 
 @media screen and (max-width: 450px) {
