@@ -144,8 +144,8 @@ header{
     object-fit: cover;
 }
 
-section .container img {
-    width: 448px;
+#about .container img {
+    width: 500px;
     object-fit: cover;
 }
 
@@ -293,8 +293,10 @@ i {
     letter-spacing: 1px;
     font-family: Poppins;
 }
-.articleAbout h1{
+
+h1{
     font-family: Poppins;
+    width: 48px;
     color: var(--txt);
 }
 
@@ -430,6 +432,7 @@ i {
     justify-content: center;
     align-items: center;
     gap: 24px;
+    width: 100%;
     align-self: stretch;
     padding: 24px 0px;
     background-color: var(--bg-color-secondary);
@@ -450,6 +453,12 @@ i {
     .imgHeader {
         width: 392px;
     }
+
+    #about .container img {
+        width: 392px;
+        object-fit: cover;
+    }
+    
     /* untuk ukuran font pada section pagetop */
     .articleHead p {
         font-size: 50px;
@@ -496,8 +505,9 @@ i {
     #page-top .container img,
     section .container img,
     .imgHeader {
-        width: 236px;
+        width: 276px;
     }
+    
     /* untuk ukuran font pada section pagetop */
     .articleHead p {
         font-size: 35px;
@@ -512,6 +522,7 @@ i {
     .service-icon img{
         width: 240px !important;
     }
+    
 
     /* navbar */
     header .container {
