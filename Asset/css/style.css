@@ -560,10 +560,10 @@ i {
     /* untuk kontak form */
     .card {
         max-width: 100%;
-      }
+    }
 
-      /* untuk hp */
-      .section-body {
+    /* untuk hp */
+    .section-body {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -573,7 +573,7 @@ i {
     }
 
     .section-kontak{
-        width: 600px;
+        width: 824px;
     }
 }
 
