@@ -38,6 +38,17 @@ function main() {
     };
 }
 
+// darkmode 
+var icon = document.getElementById("icon");
+icon.onclick = function () {
+    document.body.classList.toggle("modegelap");
+    if (document.body.classList.contains("modegelap")) {
+        icon.src = "Asset/img/sun.png";
+    } else {
+        icon.src = "Asset/img/moon.png";
+    }
+}
+
 // function menuDisplay(state, items) {
 //     if (state == "show") {
 //         for (var i = 1; i < items.length; i++) {

@@ -114,6 +114,11 @@ header{
     z-index: 9999;
 }
 
+#icon{
+    width: 30px;
+    cursor: pointer;
+  }
+
 #page-top .container img {
     width: 500px;
     object-fit: cover;
