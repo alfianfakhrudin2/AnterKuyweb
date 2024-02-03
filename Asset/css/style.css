@@ -12,6 +12,19 @@
     --bg-color-secondary: #fff7f0;
 }
 
+.modegelap{
+    --bg-color: #282a36;
+    --second: #fff;
+    --third: white;
+    --navbar: #44475a;
+    --fonts: whitesmoke;
+    --jdul: #bd93f9;
+    --warna1: whitesmoke;
+    --four: #f8f8f2;
+    --topbtn: whitesmoke;
+    --csr: whitesmoke;
+}
+
 
 * {
     font-family: var(--bs-body-font-family);
@@ -27,6 +40,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
 }
 
 /* Navbar */
@@ -48,6 +62,8 @@ header .container{
 nav.navbar {
     justify-content: space-between;
     align-items: center;
+    display: flex;
+
 }
 
 
@@ -116,8 +132,9 @@ header{
 
 #icon{
     width: 30px;
+    height: 30px;
     cursor: pointer;
-  }
+}
 
 #page-top .container img {
     width: 500px;
@@ -541,6 +558,8 @@ i {
 
     .toggle-button {
         display: block;
+        margin-right: 10px;
+        font-size: 30px;
     }
 
     #page-top .container,
