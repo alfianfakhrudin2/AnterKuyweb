@@ -9,13 +9,15 @@
     --secondary: #4A2708;
     --bg-color: #FFFCFA;
     --yellow: #FBBC0B;
+    --txt: rgb(10, 10, 10);
     --bg-color-secondary: #fff7f0;
 }
 
 .modegelap{
     --bg-color: #282a36;
     --second: #fff;
-    --third: white;
+    --txt: white;
+    --bg-color-secondary: #3f3f3f;
     --navbar: #44475a;
     --fonts: whitesmoke;
     --jdul: #bd93f9;
@@ -114,6 +116,7 @@ nav.navbar {
 .articleHead p {
     font-size: 60px;
     font-family: Poppins, sans-serif;
+    color: var(--txt);
 }
 
 header{
@@ -206,7 +209,7 @@ section .container img {
 .nav-list a {
     text-decoration: none;
     font-size: 20px;
-    color: rgb(44, 36, 36);
+    color: var(--txt);
     font-weight: semi-bold;
     display: inline-block;
 }
@@ -265,7 +268,6 @@ section .container img {
     padding: 20px;
 }
 
-
 i {
     background-color: transparent;
 }
@@ -283,7 +285,7 @@ i {
 }
 
 .about {
-    color: #4A2708;
+    color: var(--txt);
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
@@ -293,6 +295,7 @@ i {
 }
 .articleAbout h1{
     font-family: Poppins;
+    color: var(--txt);
 }
 
 /* section fitur */
@@ -300,6 +303,7 @@ i {
     display: flex;
     font-size: 22px;
 }
+
 
 .box{
     display: column;
@@ -331,6 +335,12 @@ i {
 
 .service-icon img{
     width: 448px;
+}
+
+
+.fw-bold{
+    font-family: Poppins;
+    color: var(--txt);
 }
 
 /* Kontak section */
@@ -366,6 +376,7 @@ i {
   h2 {
     color: #333;
     margin-bottom: 20px;
+    color: var(--txt);
   }
 
   form {
@@ -443,9 +454,11 @@ i {
     .articleHead p {
         font-size: 50px;
         font-family: Poppins, sans-serif;
+        color: var(--txt);
     }
     .articleHead h1 {
         font-size: 500px;
+        color: var(--txt);
     }
     /* untuk ukuran font pada section layanan */
     .service-icon img{
@@ -489,9 +502,11 @@ i {
     .articleHead p {
         font-size: 35px;
         font-family: Poppins, sans-serif;
+        color: var(--txt);
     }
     .articleAbout p {
         font-size: 16px;
+        color: var(--txt);
     }
     /* untuk ukuran font pada section layanan */
     .service-icon img{
@@ -576,6 +591,7 @@ i {
     .articleHead p {
         font-size: 35px;
         font-family: Poppins, sans-serif;
+        color: var(--txt);
     }
     .articleHead {
         align-items: center;
